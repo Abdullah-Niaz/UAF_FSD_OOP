@@ -3,6 +3,12 @@
 // 2. By Reference
 // 3. By Pointer
 
+
+
+// Pass by Value: 
+* A copy of the variable is passed to the function.
+* Changes made inside the function do not affect the original variable.
+
 #include <bits/stdc++.h>
 using namespace std;
 
