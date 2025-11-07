@@ -9,20 +9,20 @@ int main()
 {
 
     pointers();
-    dynamicMemoryArray();
+    // dynamicMemoryArray();
     return 0;
 }
 
 void pointers()
 {
-    int a = 10;    // Normal variable
+    int a = 10;    // pointer constant / normal variable
     int *p = &a;   // Pointer to int
     int **pp = &p; // Pointer to pointer to int
 
-    cout << "Value of a      : " << a << endl;
-    cout << "Address of a    : " << &a << endl;
-    cout << "Value of p (&a) : " << p << endl;
-    cout << "Value of *p     : " << *p << endl;
+    cout << "Value of a      : " << a << endl;  // 10
+    cout << "Address of a    : " << &a << endl; //
+    cout << "Value of p (&a) : " << p << endl;  ///  addres of a
+    cout << "Value of *p     : " << *p << endl; // which is 10
 
     cout << "Value of pp (&p): " << pp << endl;   // hold the address of p
     cout << "Value of *pp (p): " << *pp << endl;  // value of pointer (holds the address of pointer *p)

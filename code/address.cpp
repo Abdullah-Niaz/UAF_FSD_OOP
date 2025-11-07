@@ -11,9 +11,7 @@ int main()
 
 void memoryAddress()
 {
-    int a = 100;
-    int *p;
-    p = &a;
-    cout << "Value of a: " << a << endl;
-    cout << "Address of a: " << &a << endl;
+    int price = 1000; 
+    cout << "Value of a: " << price << endl;
+    cout << "Address of a: " << &price << endl;
 }
